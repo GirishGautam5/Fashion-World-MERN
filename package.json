@@ -1,0 +1,26 @@
+{
+  "name": "online-book-store",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Share Code On Github    1. Initialize git repository    2. Commit changes    3. Create github account    4. Create repo on github    5. connect local repo to github repo    6. push changes to github",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GirishGautam5/Fashion-World-MERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GirishGautam5/Fashion-World-MERN/issues"
+  },
+  "homepage": "https://github.com/GirishGautam5/Fashion-World-MERN#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
