@@ -8,7 +8,6 @@ export default function HomeScreen() {
   const dispatch = useDispatch()
   const productList = useSelector((state)=> state.productList)
   const { loading, products, error} = productList
-  console.log(loading,'products')
     useEffect(()=> {
       dispatch(listProducts())
     },[dispatch])
